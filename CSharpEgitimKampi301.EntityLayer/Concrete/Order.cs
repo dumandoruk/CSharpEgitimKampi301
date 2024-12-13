@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpEgitimKampi301.EntityLayer.Concrete
 {
+    // Order entity sınıfı
     public class Order
     {
         public int OrderId { get; set; }

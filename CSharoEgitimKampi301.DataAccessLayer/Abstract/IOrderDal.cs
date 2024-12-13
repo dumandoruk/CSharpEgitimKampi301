@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharoEgitimKampi301.DataAccessLayer.Abstract
 {
+    // Order veri tabanı işlemleri için kullanılacak interface
     public interface IOrderDal:IGenericDal<Order>
     {
     }

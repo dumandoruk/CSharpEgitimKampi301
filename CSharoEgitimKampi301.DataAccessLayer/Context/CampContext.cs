@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace CSharoEgitimKampi301.DataAccessLayer.Context
 {
+    // Veri tabanı bağlantısı ve DbSet tanımlamaları için kullanılacak sınıf
     public class CampContext : DbContext
     {
         public DbSet<Category> Categories { get; set; }

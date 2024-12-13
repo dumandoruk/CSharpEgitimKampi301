@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharoEgitimKampi301.DataAccessLayer.Abstract
 {
+    // Product veri tabanı işlemleri için kullanılacak interface
     public interface IProductDal:IGenericDal<Product>
     {
     }

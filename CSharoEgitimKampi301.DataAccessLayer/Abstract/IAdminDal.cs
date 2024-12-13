@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharoEgitimKampi301.DataAccessLayer.Abstract
 {
+    // Admin veri tabanı işlemleri için kullanılacak interface
     public interface IAdminDal:IGenericDal<Admin>
     {
     }

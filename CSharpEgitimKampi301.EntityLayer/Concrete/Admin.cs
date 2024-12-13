@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpEgitimKampi301.EntityLayer.Concrete
 {
+    // Admin entity sınıfı
     public class Admin
     {
         public int AdminId { get; set; }

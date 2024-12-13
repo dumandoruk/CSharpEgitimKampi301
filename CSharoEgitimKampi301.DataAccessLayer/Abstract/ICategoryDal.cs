@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharoEgitimKampi301.DataAccessLayer.Abstract
 {
+    // Category veri tabanı işlemleri için kullanılacak interface
     public interface ICategoryDal:IGenericDal<Category>
     {
     }
