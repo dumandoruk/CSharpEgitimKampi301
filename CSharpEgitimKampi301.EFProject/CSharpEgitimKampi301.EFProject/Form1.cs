@@ -18,49 +18,68 @@ namespace CSharpEgitimKampi301.EFProject
             InitializeComponent();
         }
 
+        // Veritabanı bağlamı oluşturuluyor
         EgitimCampiEfTravelDbEntities db = new EgitimCampiEfTravelDbEntities();
+
+        // Listeleme butonuna tıklanınca yapılacak işlemler
         private void btnList_Click(object sender, EventArgs e)
         {
-
-            var values =db.Tbl_Guide.ToList();
+            // Tbl_Guide tablosundaki veriler alınıyor ve DataGridView'e atanıyor
+            var values = db.Tbl_Guide.ToList();
             dataGridView1.DataSource = values;
         }
 
+        // Ekleme butonuna tıklanınca yapılacak işlemler
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            // Yeni bir Tbl_Guide nesnesi oluşturuluyor
             Tbl_Guide guide = new Tbl_Guide();
-            guide.GuideName=txtName.Text;
-            guide.GuideSurname=txtSurname.Text;
+            // Formdaki veriler Tbl_Guide nesnesine atanıyor
+            guide.GuideName = txtName.Text;
+            guide.GuideSurname = txtSurname.Text;
+            // Tbl_Guide nesnesi veritabanına ekleniyor
             db.Tbl_Guide.Add(guide);
             db.SaveChanges();
+            // Kullanıcıya başarılı bir ekleme mesajı gösteriliyor
             MessageBox.Show("Guide Added Successfully!");
         }
 
+        // Silme butonuna tıklanınca yapılacak işlemler
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            int id =int.Parse(txtId.Text);
-            var removeValue=db.Tbl_Guide.Find(id);
+            // Silinecek kaydın ID'si alınıyor
+            int id = int.Parse(txtId.Text);
+            // ID'ye göre kayıt bulunuyor ve veritabanından siliniyor
+            var removeValue = db.Tbl_Guide.Find(id);
             db.Tbl_Guide.Remove(removeValue);
             db.SaveChanges();
+            // Kullanıcıya başarılı bir silme mesajı gösteriliyor
             MessageBox.Show("Guide Removed Successfully!");
-
         }
 
+        // Güncelleme butonuna tıklanınca yapılacak işlemler
         private void btnUpdate_Click(object sender, EventArgs e)
         {
+            // Güncellenecek kaydın ID'si alınıyor
             int id = int.Parse(txtId.Text);
-            var updateValue=db.Tbl_Guide.Find(id);
+            // ID'ye göre kayıt bulunuyor ve alanları güncelleniyor
+            var updateValue = db.Tbl_Guide.Find(id);
             updateValue.GuideName = txtName.Text;
             updateValue.GuideSurname = txtSurname.Text;
             db.SaveChanges();
+            // Kullanıcıya başarılı bir güncelleme mesajı gösteriliyor
             MessageBox.Show("Guide Updated Successfully!");
         }
 
+        // ID'ye göre kayıt getirme butonuna tıklanınca yapılacak işlemler
         private void btnGetbyid_Click(object sender, EventArgs e)
         {
-            int id=int.Parse(txtId.Text);
-            var values=db.Tbl_Guide.Where(x=> x.GuideId==id).ToList();
+            // Getirilecek kaydın ID'si alınıyor
+            int id = int.Parse(txtId.Text);
+            // ID'ye göre kayıt bulunuyor ve DataGridView'e atanıyor
+            var values = db.Tbl_Guide.Where(x => x.GuideId == id).ToList();
             dataGridView1.DataSource = values;
         }
+
     }
 }
