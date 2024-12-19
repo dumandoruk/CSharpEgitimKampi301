@@ -18,3 +18,8 @@ Bu derste, SQL ile oluşturulan "Tur Projesi" adlı veritabanını Entity Framew
 
 🌍 Ders 16: Entity Framework: Tur Projesi Location İşlemleri
 Bu derste ise, önceki dersin devamı olan Tur Projesi'nin Location tablosu üzerinde Form Application kullanarak temel CRUD işlemleri yaptık.
+
+📊 Ders 17: Entity Framework Metotları ve Linq Sorgular
+Bu projede, Form Application kullanarak basit bir kart görünümü oluşturduk ve bu kart görünümünde istatistiksel verileri LINQ sorguları ile sorguladık.
+Ek; ![c# statistics](https://github.com/user-attachments/assets/4f697d3b-7837-4040-8e01-3fed1235760d)
+
