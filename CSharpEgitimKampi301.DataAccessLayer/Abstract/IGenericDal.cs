@@ -14,7 +14,7 @@ namespace CSharpEgitimKampi301.DataAccessLayer.Abstract
         // Veri tabanında mevcut bir kaydı güncelleme
         void Update(T entity);
         // Veri tabanından bir kaydı silme
-        void Delete(int id);
+        void Delete(T entity);
         // Tüm kayıtları getirme
         List<T> GetAll();
         // Bir kaydı ID ile getirme
