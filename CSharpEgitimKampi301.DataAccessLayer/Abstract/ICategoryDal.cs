@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharoEgitimKampi301.DataAccessLayer.Abstract
+namespace CSharpEgitimKampi301.DataAccessLayer.Abstract
 {
     // Category veri tabanı işlemleri için kullanılacak interface
-    public interface ICategoryDal:IGenericDal<Category>
+    public interface ICategoryDal : IGenericDal<Category>
     {
     }
 }

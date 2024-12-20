@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharoEgitimKampi301.DataAccessLayer.Abstract
+namespace CSharpEgitimKampi301.DataAccessLayer.Abstract
 {
     // Genel veri tabanı işlemleri için kullanılacak interface
     public interface IGenericDal<T> where T : class

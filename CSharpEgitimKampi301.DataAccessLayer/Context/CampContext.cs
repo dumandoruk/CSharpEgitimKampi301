@@ -3,10 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharoEgitimKampi301.DataAccessLayer.Context
+namespace CSharpEgitimKampi301.DataAccessLayer.Context
 {
     // Veri tabanı bağlantısı ve DbSet tanımlamaları için kullanılacak sınıf
     public class CampContext : DbContext

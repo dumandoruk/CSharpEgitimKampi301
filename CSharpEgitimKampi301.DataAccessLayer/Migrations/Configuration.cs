@@ -1,18 +1,18 @@
-﻿namespace CSharoEgitimKampi301.DataAccessLayer.Migrations
+﻿namespace CSharpEgitimKampi301.DataAccessLayer.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<CSharoEgitimKampi301.DataAccessLayer.Context.CampContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<CSharpEgitimKampi301.DataAccessLayer.Context.CampContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(CSharoEgitimKampi301.DataAccessLayer.Context.CampContext context)
+        protected override void Seed(CSharpEgitimKampi301.DataAccessLayer.Context.CampContext context)
         {
             //  This method will be called after migrating to the latest version.
 

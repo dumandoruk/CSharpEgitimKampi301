@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{29E7E2A3-03C9-4881-B074-FF82E50FD483}</ProjectGuid>
+    <ProjectGuid>{6A554EEC-06E5-4037-9F24-4BDC4B83FC22}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>CSharpEgitimKampi301.PresentationLayer</RootNamespace>
     <AssemblyName>CSharpEgitimKampi301.PresentationLayer</AssemblyName>
@@ -64,9 +64,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -91,8 +88,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CSharoEgitimKampi301.BusinessLayer\CSharpEgitimKampi301.BusinessLayer.csproj">
-      <Project>{23d241a5-53b6-48b3-9341-9d8f950c1060}</Project>
+    <ProjectReference Include="..\CSharpEgitimKampi301.BusinessLayer\CSharpEgitimKampi301.BusinessLayer.csproj">
+      <Project>{a49556ad-0293-412c-aa06-6a0abdbae03c}</Project>
       <Name>CSharpEgitimKampi301.BusinessLayer</Name>
     </ProjectReference>
   </ItemGroup>

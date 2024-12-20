@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CSharoEgitimKampi301.DataAccessLayer")]
+[assembly: AssemblyTitle("CSharpEgitimKampi301.DataAccessLayer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CSharoEgitimKampi301.DataAccessLayer")]
+[assembly: AssemblyProduct("CSharpEgitimKampi301.DataAccessLayer")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f62a63b7-efe0-4bb5-902b-d292c2c69bf7")]
+[assembly: Guid("bc260da8-7880-472a-9ba9-4d6b9068b3e2")]
 
 // Version information for an assembly consists of the following four values:
 //

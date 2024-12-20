@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8C154A0C-F954-48EA-9CB1-E7FB5C7EEAAB}</ProjectGuid>
+    <ProjectGuid>{0A53DD69-7DD5-4731-82A4-D2DF87858E3D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CSharpEgitimKampi301.EntityLayer</RootNamespace>
@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Concrete\Admin.cs" />
     <Compile Include="Concrete\Category.cs" />
     <Compile Include="Concrete\Customer.cs" />
