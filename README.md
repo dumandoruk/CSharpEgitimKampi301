@@ -23,3 +23,5 @@ Bu derste ise, önceki dersin devamı olan Tur Projesi'nin Location tablosu üze
 Bu projede, Form Application kullanarak basit bir kart görünümü oluşturduk ve bu kart görünümünde istatistiksel verileri LINQ sorguları ile sorguladık.
 Ek; ![c# statistics](https://github.com/user-attachments/assets/4f697d3b-7837-4040-8e01-3fed1235760d)
 
+📃 Ders 18: EntityState Komutları, Generic Repository Sınıfı ve Ef Sınıfları
+Data Access Katmanı'nda veritabanı işlemlerini ele alan genel (generic) bir repository oluşturduk. Entity Framework sınıflarında ise, generic repository sınıfını miras alarak entity sınıflarının veri erişim katmanlarını belirledik.
